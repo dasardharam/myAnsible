@@ -1,0 +1,5 @@
+---
+- hosts: create file
+  file: 
+    path: /home/ram/testfile
+    state: touch
